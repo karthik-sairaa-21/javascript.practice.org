@@ -1,0 +1,10 @@
+let a=1;
+let b=2;
+let c=1;
+let d=(a & b)&c;
+let f=(a^b);
+let g=(a<<1);
+let n=(a|b);
+console.log(d);
+console.log(f);
+console.log(g);
