@@ -14,10 +14,21 @@
 // adds it to a sum until the user enters a number greater than 100. Use a while loop
 //  to keep track of the input and sum.
 
-function name(params) {
-      
-}
+// function nam(n) {
+//     let a=1;
+//     let b=0
+//     while (true) {
+//          if (b>=a){
+//             a=b+a;
 
+//             return b; 
+//          }
+
+        
+//     }
+  
+// }
+// nam(100)
 
 
 
@@ -29,13 +40,14 @@ function name(params) {
 
 // Print Numbers in Reverse Order Write a program that prints numbers from 10 to 1 using a for loop.
 
-// function nam() {
-//     for (i=10; 1<=i ;i--){
-//         console.log(i)
-//     }
+function nam(r,n) {
+    for (i=r; n>=i ;i--){
+        console.log(r + "*" +n + "=" +n*r);
+        n=n-1
+    }
         
-// }
-// nam()
+}
+nam(4,10)
 
 
 

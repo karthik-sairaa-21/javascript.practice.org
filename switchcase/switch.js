@@ -1,4 +1,4 @@
-let Monthnumber = 13;
+let Monthnumber = 1;
 switch (Monthnumber) {
     case 1:
         console.log("jan");
@@ -39,10 +39,6 @@ switch (Monthnumber) {
 
      default:
         console.log("none")   
-
-
-
-
 
 }
 
