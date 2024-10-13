@@ -40,14 +40,15 @@
 
 // Print Numbers in Reverse Order Write a program that prints numbers from 10 to 1 using a for loop.
 
-function nam(r,n) {
-    for (i=r; n>=i ;i--){
-        console.log(r + "*" +n + "=" +n*r);
-        n=n-1
-    }
+
+// function nam(r,n) {
+//     for (i=r; n>=i ;i--){
+//         console.log(r + "*" +n + "=" +n*r);
+//         n=n-1
+//     }
         
-}
-nam(4,10)
+// }
+// nam(4,10)
 
 
 

@@ -220,15 +220,15 @@
 // [ 1700, 1350 ]
 
 
-// expenses = [
-//    { rent: 1000, groceries: 500, utilities: 200 },
-//    { rent: 10, groceries: 10, utilities: 10 },
-//    ]
+expenses = [
+   { rent: 1000, groceries: 500, utilities: 200 },
+   { rent: 10, groceries: 10, utilities: 10 },
+   ]
 
-// a=[]
-// sum=0
-// for(i=0;i<expenses.length;i++){
-// sum=expenses[i].rent+expenses[i].groceries+expenses[i].utilities
-// a.push(sum)
-// }   
-// console.log(a)
+a=[]
+sum=0
+for(i=0;i<expenses.length;i++){
+sum=expenses[i].rent+expenses[i].groceries+expenses[i].utilities
+a.push(sum)
+}   
+console.log(a)

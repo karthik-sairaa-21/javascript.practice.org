@@ -11,16 +11,6 @@
 // console.log("pi = " +pi);
 
 
-// 1. Declare three numbers and print them with space between them
-
-// For example if the variables have 2, 4,  and 5 as values the program should print
-
-// 2 4 5
-let m="2";
-let n="4";
-let o="5";
--console.log(m, n, o)
-
 // 2. Declare the Name, age and marks of a students as variables and print the result in the below format
 
 // Name: Priyanka
@@ -53,3 +43,11 @@ console.log("Total="+ (groupA+groupB+groupC));
 
 
 
+// let char = 10;
+// if (char==2 && ) {
+//   console.log('The character is a.');
+// } else if (char === 'b') {
+//   console.log('The character is b.');
+// } else {
+//   console.log('The character is something else.');
+// }
