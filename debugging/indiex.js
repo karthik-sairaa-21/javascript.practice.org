@@ -44,32 +44,30 @@
 // }
 
 
-function generateSeries(n) {
-    let str = "";
-    for (let i = 1; i <=n; i++) {
-        let term = i ** 2; 
-        str = str+term + " ";
+// function generateSeries(n) {
+//     let str = "";
+//     for (let i = 1; i <=n; i++) {
+//         let term = i ** 2; 
+//         str = str+term + " ";
        
-    } 
-    return str
-}
+//     } 
+//     return str
+// }
 
 
 // Example usage
-let n = 5;
-let result1 = generateSeries(n);
-console.log(`The first ${n} terms of the series are: ${result1}`);
+
+// let n = 5;
+// let result1 = generateSeries(n);
+// console.log(`The first ${n} terms of the series are: ${result1}`);
 
 
 
-function isMultipleOfSeven(N) {
-    if (N % 7 === 0) { 
-        console.log("YES");
-    } else {
-        console.log("NO");
-    }
-}
+// function isMultipleOfSeven(N) {
+//     if (N % 7 === 0) { 
+//         console.log("YES");
+//     } else {
+//         console.log("NO");
+//     }
+// }
 
-// Example usage
-let N = 49;
-isMultipleOfSeven(N);

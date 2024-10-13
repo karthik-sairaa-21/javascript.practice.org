@@ -32,3 +32,38 @@
 // console.log(brand);
 
 
+
+
+
+
+
+// Write a program to create an array of 3 gadgets. Remove the first element using shift() and 
+// print the resulting array.
+
+// let a=["earpone","phone","blackphone"]
+// a.shift()
+// console.log(a)
+// a.pop()
+
+
+// Create an array of 2 cities. Add two more cities to the beginning using unshift() and print the new array.
+
+// let a=["chennai","mumbai"]
+// a.unshift("delhi","asia")
+// console.log(a);
+
+
+
+
+// Create an array of 3 programming languages. Use join() to create a string where each language is separated by 
+// a comma, and print the result.
+
+
+
+
+
+
+
+
+
+

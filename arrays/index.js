@@ -7,26 +7,6 @@
 
 
 
-// let direction = '';  // Declare the variable to store the name
-
-// function getin(){
-    
-//     const readline = require('readline');
-//     const rl = readline.createInterface({
-//       input: process.stdin,
-//       output: process.stdout,
-//     });
-    
-//     rl.question(`What's direction?`, input => {
-//         direction = input;  // Store the input in the userName variable
-//       // You can now use the userName variable wherever needed
-//       console.log("the"+ direction);
-//     });
-    
-//     return direction;
-// }
-
-
 // 1.Create an array of 5 numbers and print the array.
 // let a=[1,2,3,4,5];
 // console.log(a)
@@ -59,12 +39,6 @@
 // }
 
 
-
-
-
-
-
-
 //6. Write a program to sum all elements of an array of numbers and print the result.
 
 // let k=[1,2,3,4,5,6,7,8,9,10]
@@ -74,10 +48,6 @@
  
 // }
 // console.log(sum)
-
-
-
-
 
 
 
@@ -103,15 +73,15 @@
 // Create an array of 10 numbers. Write a program to filter out only the odd numbers and print them.
 
 
-let oddNumber=[1,2,3,4,5,6,7,8,9]
-for(i=0;i<oddNumber.length;i++){
-  if (oddNumber[i]%2==0){
-    console.log(oddNumber[i])
-  }
-}
+// let oddNumber=[1,2,3,4,5,6,7,8,9]
+// for(i=0;i<oddNumber.length;i++){
+//   if (oddNumber[i]%2==0){
+//     console.log(oddNumber[i])
+//   }
+// }
 
 
-// Write a program that reverses an array using the `reverse()` method and prints the reversed array.
+
 
 
 
