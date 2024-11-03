@@ -63,6 +63,38 @@ for(let i=0;i<n;i++){
 }
 
 
+function nam(a){
+    if(a%2==0){
+        console.log(a);
+        
+    }
+}
+nam(4)
+
+
+// 1. Print the below patter if 
+//            1
+
+//          1 2
+
+//         1 2 3
+
+//          1 2
+
+//           1
+
+n = 3;
+for(i=1;i<=n;i++){
+    let a=""
+    for(j=1;j<=i;j++){
+        a+=""
+    }
+    for(k=1;k<=i;k++){
+        
+    }
+}
+
+
 
 
 
