@@ -30,70 +30,56 @@
 
 // simple variable condition
 
-function prime(n){
-    if(n<=1){
-        return false;
-    }
-    for(let i=2;i<=Math.sqrt(n);i++){
-        if(n%i==0){
-            return false;
-        }
-    }
-    return true;
-}
-// console.log(prime(7))
-    
-//  array check condition
-
-function nam(arr){
-    empty=[]
-    for(i=0;i<arr.length;i++){
-        if(prime(arr[i])){
-          empty.push(arr[i]);
-        }
-    }
-    return empty;
-}
- let arr=[1,22,1,11,2,3,7,4];
- console.log(nam(arr));
- 
-
-
-//  3. Given a 2 numbers, find the LCM between the two numbers.
-
-function gcd(a , b) {
-    while (b !== 0) {
-        let temp = b;
-        b = a % b;
-        a = temp;
-    }
-    return a;
-}
-
-function lcm(a, b) {
-    return (a * b) / gcd(a, b);
-}
-
-let num1 = 10;
-let num2 = 102;
-
-let result = lcm(num1, num2);
-console.log("LCM of " + num1 + " and " + num2 + " is: " + result);
+// function prime(n){
+//     if(n<=1){
+//         return false;
+//     }
+//     for(let i=2;i*i<=n;i++){
+//         if(n%i==0){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+// // console.log(prime(7))
+// //  array check condition
+// function nam(arr){
+//     empty=[]
+//     for(i=0;i<arr.length;i++){
+//         if(prime(arr[i])){
+//           empty.push(arr[i]);
+//         }
+//     }
+//     return empty;
+// }
+//  let arr=[1,22,1,11,2,3,7,4];
+//  console.log(nam(arr));
 
 
 
-// 4. Given 2 Numbers, find the GCD between the two numbers. 
+// //  3. Given a 2 numbers, find the LCM between the two numbers.
 
-// function gcd(a,b){
-//     while(b!==0){
-//         let temp=b;
-//         b=a%b;
-//         a=temp;
-
+// function gcd(a , b) {
+//     while (b !== 0) {
+//         let temp = b;
+//         b = a % b;
+//         a = temp;
 //     }
 //     return a;
 // }
-// console.log(gcd(10,15))
- 
+
+// function lcm(a,b) {
+//     return (a*b) / gcd(a,b);
+// }
+// console.log(gcd(10,20))
+
+// let num1 = 10;
+// let num2 = 102;
+
+// let result = lcm(num1, num2);
+// console.log("LCM of " + num1 + " and " + num2 + " is: " + result);
+
+
+
 
 

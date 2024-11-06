@@ -1,7 +1,7 @@
 // 1.You have an array of daily expenses for a week. Write a function that calculates the total expenses for the week.
 
 
-// n=[1,2,3,]
+// n=[1,2,3]
 //     let sum=0;
 //     for(i=0;i<n.length;i++){
 //         sum=sum+n[i];

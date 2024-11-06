@@ -51,8 +51,6 @@ function printPrime(m, n) {
         console.log("NO prime in range");
 
     }
-
-
 }
 
 printPrime(1,10)
