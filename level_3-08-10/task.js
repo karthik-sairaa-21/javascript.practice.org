@@ -173,29 +173,68 @@
 
 
 
-function prime(m,n){
-    let isPrime = true;
-    let sum = 0;
-    for(i=m; i<=n; i++){
-        if(i<=1){
-            isPrime = false;
-        }             
-        else{
-           for(j=2; j<=Math.sqrt(i); j++){
-            if(i%j==0){
-                isPrime = false;
-            }
-           } 
-        }
-        if(isPrime){
-            sum = sum + i;
-        }
-        else{
-            isPrime = true;
-        }
-}
-console.log(sum);
+// function prime(m,n){
+//     let isPrime = true;
+//     let sum = 0;
+//     for(i=m; i<=n; i++){
+//         if(i<=1){
+//             isPrime = false;
+//         }             
+//         else{
+//            for(j=2; j<=Math.sqrt(i); j++){
+//             if(i%j==0){
+//                 isPrime = false;
+//             }
+//            } 
+//         }
+//         if(isPrime){
+//             sum = sum + i;
+//         }
+//         else{
+//             isPrime = true;
+//         }
+// }
+// console.log(sum);
+// }
+
+// prime(1,10)
+
+
+function prime(n){
+    if(n<=1){
+    return false;
+    }
+    for(i=2;i<=Math.sqrt(n);i++){
+            if(n%i==0){
+          return false;
+    }
+    
+    } return true;
+    
+    }
+
+function printPrimesInRange(m, n) {
+    let a=[];
+for(let i=m;i<=n;i++){
+if(prime(i)){
+a.push(i)
 }
 
-prime(5,10)
+}
+
+let array=0;
+
+ if(a.length>0){
+ array=a.join(", ")
+ console.log(array)
+}
+else{
+    console.log("no prime in the range");
+    
+}
+}
+printPrimesInRange(1, 10) 
+
+
+
 

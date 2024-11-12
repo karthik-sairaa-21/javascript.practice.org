@@ -321,29 +321,29 @@
 
 
 
-n=5;
-for(i=1;i<=n;i++){
-    let a=""
-    for(j=1;j<=n-i;j++){
-        a+=" ";
-    }
-    for(k=1;k<=i;k++){
-        a+=k+" "
-    }
-    console.log(a);
+// n=5;
+// for(i=1;i<=n;i++){
+//     let a=""
+//     for(j=1;j<=n-i;j++){
+//         a+=" ";
+//     }
+//     for(k=1;k<=i;k++){
+//         a+=k+" "
+//     }
+//     console.log(a);
     
-}
+// }
 
-for(let i=n-1;i>=1;i--){
-    let a="";
-    for(let j=1;j<=n-i;j++){
-        a+=" ";
-    }
-    for(let k=1;k<=i;k++){
-        a+=k+" ";
-    }
-    console.log(a);
-}
+// for(let i=n-1;i>=1;i--){
+//     let a="";
+//     for(let j=1;j<=n-i;j++){
+//         a+=" ";
+//     }
+//     for(let k=1;k<=i;k++){
+//         a+=k+" ";
+//     }
+//     console.log(a);
+// }
 
 
 
@@ -365,29 +365,6 @@ for(let i=n-1;i>=1;i--){
 //     }
 //     console.log(a);  
 // }
-
-
-// function nam(m){
-//     for(i=0;i<m.length;i++){
-// let digit1=Math.floor(m[i]/10);
-// let digit2=m[i]%10;
-// let sum=digit1+digit2;
-// let multiple=digit1*digit2;
-// let total=sum+multiple;
-
-// if(total==m[i]){
-
-//     console.log(total);  
-// }
-// else{
-//     console.log("This is no special number"); 
-// }
-
-//     }
-
-
-// }
-// nam([19,11])
 
 
 

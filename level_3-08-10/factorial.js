@@ -1,21 +1,21 @@
-function factorial(num) {
+// function factorial(num) {
     // if (num === 0 || num === 1) ;{
     // console.log(1);
 
     // }
 
-    let fact = 1;
-    let sum=0;
-    for (let i = 1; i <= num; i++) {
-      fact *= i;
-      sum+=fact;
-    }
+//     let fact = 1;
+//     let sum=0;
+//     for (let i = 1; i <= num; i++) {
+//       fact *= i;
+//       sum+=fact;
+//     }
     
 
-    // return fact;
-    console.log(sum);
-  }
-  factorial(5)
+//     // return fact;
+//     console.log(sum);
+//   }
+//   factorial(5)
 
 
 //   n to m prime number 
@@ -38,12 +38,11 @@ function printPrime(m, n) {
     for (let i = m; i <= n; i++) {
         if (prime(i)) {
             empty.push(i)
-
-
         }
     }
+
     let output = 0;
-    if (prime.length > 0) {
+    if (empty.length > 0) {
         output = empty.join(", ")
         console.log(output);
     }
@@ -52,6 +51,5 @@ function printPrime(m, n) {
 
     }
 }
-
-printPrime(1,10)
+printPrime(8,10)
 
