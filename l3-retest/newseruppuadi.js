@@ -119,6 +119,160 @@
 // Use console.log and print the LCM between 2 numbers. For example
 // lcm of 12 and 18 is  36
 
-jhjhjjjjhjjg
-  
+// function lcm(a,b){
+//     let sum=a*b;
+//     for(let i=1;i<=sum;i++){
+//         if(i%a==0 && i%b==0){
+//             console.log(i);
+//             break
+            
+//         }
+      
+//     }
+   
+// }
+// lcm(12,18)
+
+// Given 2 Numbers, find the GCD between the two numbers. 
+
+// input
+
+// 10 30
+
+// function gcd(a,b){
+//     let sum=a*b;
+//     for(let i=sum;i>=0;i--){
+//         if(a%i==0 && b%i==0){
+//             console.log(a);
+//             break;
+            
+//         }
+//     }
+
+//     }   
+//      gcd(10,30)
+
+
+// Given an array of integers, find the maximum in the array
+
+// let a=[12,21,23,22,43,2,122]
+// let b=[0]
+// for(let i=1;i<=a.length;i++){
+
+// if(b<a[i]){
+//     b=a[i]
+// }
+
+
+
+// }
+// console.log(b);
+
+
+
+// Given an array of strings, find the string which comes first alphabetically without using any library functions. 
+
+
+// let a = "apple";
+// let b = "aeroplane";
+
+// if(a>b){
+//     let c= b;
+//     b = a;
+//     a= c;
+// }
+// console.log(a);
+// console.log(b);
+
+// let arr = ["cherry", "apple", "date", "elderberry","banana",];
+
+// for(i=0;i<arr.length-1;i++){
+//     for(j=0;j<arr.length-1-i;j++){
+//     let a =arr[j];
+//     let b=arr[j+1];
+//     if(a>b){
+//     //    let temp 
+//         arr[j] = b ;
+//         arr[j+1] = a;
+//     }
+// }
+// }
+// console.log(arr);
+
+
+
+// *
+
+// * *
+
+// * * *
+
+// let n=3
+// for(let i=1;i<=n;i++){
+//     let a=""
+//     for(let k=1;k<=i;k++){
+//         a+="*"+" ";
+//     }
+//     console.log(a);
+   
+    
+// }
+
+
+
+//   *
+
+//  * *
+
+// * * *
+
+// let n=3;
+// for(let i=1;i<=n;i++){
+//     let a=" "
+//     for(let j=1;j<=n-i;j++){
+//         a+=" "
+//     }
+//     for(let k=1;k<=i;k++){
+//         a+="*"+" "
+//     }
+//     console.log(a);
+    
+// }
+
+
+
+// * * *
+
+// * * *
+
+// * * *
+// let n=3
+// for(let i=1;i<=n;i++){
+//     a=" "
+//     for(let k=1;k<=n;k++){
+//         a+="*"+" "
+//     }
+//     console.log(a); 
+// }
+
+
+
+// * * *
+//  * *
+//   *
+
+// n=3;
+//  for(let i=n;i>=1;i--){
+//     a=" "
+//     for(let j=i;j<=n;j++){
+//         a+=" "
+
+//     }
+//     for(let k=1;k<=n;k++){
+//         a+="*"+" "
+//     }
+//     console.log(a);
+    
+//  }
+
 
