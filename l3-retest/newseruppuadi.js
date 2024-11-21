@@ -119,19 +119,19 @@
 // Use console.log and print the LCM between 2 numbers. For example
 // lcm of 12 and 18 is  36
 
-// function lcm(a,b){
-//     let sum=a*b;
+// function lcm(a,b,c){
+//     let sum=a*b*c;
 //     for(let i=1;i<=sum;i++){
-//         if(i%a==0 && i%b==0){
+//         if(i%a==0 && i%b==0 && i%c==0){
 //             console.log(i);
-//             break
+//             break;
             
 //         }
       
 //     }
    
 // }
-// lcm(12,18)
+// lcm(10,90,50)
 
 // Given 2 Numbers, find the GCD between the two numbers. 
 
@@ -275,4 +275,72 @@
     
 //  }
 
+// function gcdfunc(n){
+//     let sum=i;
+//     for(let i=sum;i<=0;i++){
 
+//     }
+
+// }
+
+
+
+
+
+// function main(n){
+//     let value=[]
+//     let i = 0;
+//   while(i <= n.length ){
+//         value.push(gcdfunc( n[i],n[i+1]));
+//         i=i+2;
+//   }
+
+// }
+// main([20,30,40,60])
+
+// 1st => i 0,1, i = 2
+// 2nd => i 2, 3, i= 4
+// 3rd => i 4, 5 , i = 6
+
+
+
+
+function pattern(n){
+  
+for(let i=1;i<=n;i++){
+    a="";
+    for(let j=1;j<=n-i;j++){
+      a+=" ";
+    }
+    for(let k=1;k<=i;k++){
+        if(i%2==1){
+            a+="*"+" ";
+        }
+        else{
+            
+               a+="#"+" ";
+
+           
+        }
+    }
+    console.log(a);  
+}
+
+
+for(let i=n-1;i>=1;i--){
+    a=""
+    for(let k=1;k<=n-i;k++){
+        a+=" "
+    }
+    for(let j=1;j<=i;j++){
+        if(i%2==1){
+            a+="*"+" ";
+        }
+        else{
+            a+="#"+" ";
+        }
+    }
+    console.log(a); 
+}
+}
+pattern(4)

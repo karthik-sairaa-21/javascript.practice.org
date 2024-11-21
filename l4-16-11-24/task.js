@@ -11,6 +11,7 @@
 
 
 // Given an array of strings arr and another string s, check if s in present in arrj
+
 // a=["two","three","one"]
 // s=["one"]
 // for(i=0;i<=a.length-1;i++){
@@ -57,9 +58,6 @@
 
 // Example Input: [1, 2, 3, 4, 5, 6]
 // Example Output: { even: 3, odd: 3 }
-
-
-
 
 // function nam(a){
 //   let even=[]

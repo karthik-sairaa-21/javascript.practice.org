@@ -287,14 +287,7 @@
 
 
 
-// 2. Given a single integer N, find the sum of the factorials from 1 to N, i.e.
-//  sum of series - 1! + 2! + 3! + 4! + ... + N!
 
-// function factorial(n){
-//   let a=1;
-//   sum=0;
-// for(let i=1;i<=n;i++){
-        
 
 
 
