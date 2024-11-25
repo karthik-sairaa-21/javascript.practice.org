@@ -40,12 +40,12 @@
 
 // function fibi(n){
 //     let a=0;
-//     let b=1
+//     let b=1;
 //     let sum=0;
 //     let empty=[];
 //     for(i=1;i<=n;i++){
 //      empty.push(a);
-//         sum=a+b;
+//         sum=a+b; 
 //         a=b;
 //         b=sum;
 //     }
