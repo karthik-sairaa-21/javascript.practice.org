@@ -11,17 +11,17 @@
 // //           1
 
 
-// function nam(n){
-//     for(let i=1;i<=n;i++){
-//            let a=""
-//     for(let j=1;j<=n-i;j++){
-//         a+=" "
-//     }
-//     for(let k=1;k<=i;k++){
-//         a+=k+" "
-//     }
-//     console.log(a)
-//     }
+function nam(n){
+    for(let i=1;i<=n;i++){
+           let a=""
+    for(let j=1;j<=n-i;j++){
+        a+=" "
+    }
+    for(let k=1;k<=i;k++){
+        a+="*"+" "
+    }
+    console.log(a)
+    }
 
 
     
@@ -36,8 +36,8 @@
 //     }
 //     console.log(b);  
 // }
-// }
-// nam(3)
+}
+nam(3)
 
 
 // Given a number find the LCM of a number
