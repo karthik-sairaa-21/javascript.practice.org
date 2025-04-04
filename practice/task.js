@@ -17,10 +17,6 @@
 // console.log(sum)
 
 
-
-
-
-
 // 2. Multiples of 3
 
 // Print the first n multiples of 3, print 3 6 9 12 15 ... on separate lines. The

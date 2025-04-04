@@ -1,21 +1,21 @@
-// function factorial(num) {
-    // if (num === 0 || num === 1) ;{
-    // console.log(1);
+function factorial(num) {
+    if (num === 0 || num === 1) ;{
+    console.log(1);
 
-    // }
+    }
 
-//     let fact = 1;
-//     let sum=0;
-//     for (let i = 1; i <= num; i++) {
-//       fact *= i;
-//       sum+=fact;
-//     }
+    let fact = 1;
+    let sum=0;
+    for (let i = 1; i <= num; i++) {
+      fact *= i;
+      sum+=fact;
+    }
     
 
-//     // return fact;
-//     console.log(sum);
-//   }
-//   factorial(5)
+    // return fact;
+    console.log(sum);
+  }
+  factorial(5)
 
 
 //   n to m prime number 

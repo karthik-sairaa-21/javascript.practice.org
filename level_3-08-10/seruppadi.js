@@ -38,22 +38,22 @@
 
 // }
 
-// function fibi(n){
-//     let a=0;
-//     let b=1;
-//     let sum=0;
-//     let empty=[];
-//     for(i=1;i<=n;i++){
-//      empty.push(a);
-//         sum=a+b; 
-//         a=b;
-//         b=sum;
-//     }
-//     console.log(empty[n-1]);
+function fibi(n){
+    let a=0;
+    let b=1;
+    let sum=0;
+    let empty=[];
+    for(i=1;i<=n;i++){
+     empty.push(a);
+        sum=a+b; 
+        a=b;
+        b=sum;
+    }
+    console.log(empty[n-1]);
 
 
-// }
-// fibi(10)
+}
+fibi(10)
 
 
 

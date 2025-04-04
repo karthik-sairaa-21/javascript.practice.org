@@ -56,28 +56,28 @@
 
 
 
-// function binarySearch(arr, target) {
-//     let left = 0;            // Start of the search range
-//     let right = arr.length - 1; // End of the search range
+function binarySearch(arr, target) {
+    let left = 0;            // Start of the search range
+    let right = arr.length - 1; // End of the search range
 
-//     while (left <= right) {
-//         const mid = Math.floor((left + right) / 2); // Find the middle index
+    while (left <= right) {
+        const mid = Math.floor((left + right) / 2); // Find the middle index
 
-//         if (arr[mid] === target) {
-//             // return mid; // Found the target, return its index
-//             console.log(mid);
+        if (arr[mid] === target) {
+            // return mid; // Found the target, return its index
+            console.log(mid);
             
-//         }
+        }
 
-//         if (arr[mid] < target) {
-//             left = mid + 1; // Narrow search to the right half
-//         } else {
-//             right = mid - 1; // Narrow search to the left half
-//         }
-//     }
+        if (arr[mid] < target) {
+            left = mid + 1; // Narrow search to the right half
+        } else {
+            right = mid - 1; // Narrow search to the left half
+        }
+    }
 
-//     return -1; // Target not found
-// }
+    return -1; // Target not found
+}
 
 // // Example usage:
 // // const numbers = [1, 3, 5, 7, 9, 11, 13];

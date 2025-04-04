@@ -305,42 +305,56 @@
 
 
 
-function pattern(n){
+// function pattern(n){
   
-for(let i=1;i<=n;i++){
-    a="";
-    for(let j=1;j<=n-i;j++){
-      a+=" ";
-    }
-    for(let k=1;k<=i;k++){
-        if(i%2==1){
-            a+="*"+" ";
-        }
-        else{
+// for(let i=1;i<=n;i++){
+//     a="";
+//     for(let j=1;j<=n-i;j++){
+//       a+=" ";
+//     }
+//     for(let k=1;k<=i;k++){
+//         if(i%2==1){
+//             a+="*"+" ";
+//         }
+//         else{
             
-               a+="#"+" ";
+//                a+="#"+" ";
 
            
-        }
-    }
-    console.log(a);  
-}
+//         }
+//     }
+//     console.log(a);  
+// }
 
 
-for(let i=n-1;i>=1;i--){
-    a=""
-    for(let k=1;k<=n-i;k++){
-        a+=" "
-    }
-    for(let j=1;j<=i;j++){
-        if(i%2==1){
-            a+="*"+" ";
-        }
-        else{
-            a+="#"+" ";
-        }
-    }
-    console.log(a); 
-}
-}
-pattern(4)
+// for(let i=n-1;i>=1;i--){
+//     a=""
+//     for(let k=1;k<=n-i;k++){
+//         a+=" "
+//     }
+//     for(let j=1;j<=i;j++){
+//         if(i%2==1){
+//             a+="*"+" ";
+//         }
+//         else{
+//             a+="#"+" ";
+//         }
+//     }
+//     console.log(a); 
+// }
+// }
+// pattern(4)
+
+
+// function find(n){
+//     a=[]
+//     for(let i=0;i<n.length;i++){
+//         if(n[i]%2==0){
+//         //    console.log(n[i])
+//         a.push(n[i])
+//         }
+    
+//     }
+//     console.log(a.join(" "))
+// }
+// find([1,2,3,4,5,6,7,8,9,10])

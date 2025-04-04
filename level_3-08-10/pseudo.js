@@ -42,6 +42,7 @@
 //     return true;
 // }
 // // console.log(prime(7))
+
 // //  array check condition
 // function nam(arr){
 //     empty=[]
